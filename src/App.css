@@ -1,0 +1,47 @@
+body{
+  background-color: bisque;
+}
+#maincontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.HEADING{
+  display: flex;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 3rem;
+     font-weight: bold;
+     margin-bottom: 6rem;
+
+}
+.display{
+  margin-top: 2rem;
+  display: flex;
+  background-color: rgb(156, 156, 237);
+  border-radius: 10px;
+  height: 100px;
+  width: 700px;
+  flex-direction: column;
+  align-items: center;
+}
+.display ul{
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+li{
+  text-decoration: none;
+}
+.input{
+  display: flex;
+}
+.btn{
+  border: 2px;
+  background-color: rgb(161, 226, 226);
+}
+.ANSWERS{
+  display: flex;
+  font-size: 2rem;
+  gap: 3.5rem;
+  justify-content: space-between;
+}
